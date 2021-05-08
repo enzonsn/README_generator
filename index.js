@@ -114,8 +114,8 @@ const promptUser = () => {
                 if(questionS){return true;} else {return false;}
             }
         },
-    ])
-}
+    ]);
+};
 
 promptUser()
     .then((answers) =>{
