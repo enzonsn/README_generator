@@ -1,7 +1,8 @@
-const generateMarkdown = (answers) => {
-  return `# ${answers.title}
+function generateMarkdown(answers){
+  return `
+    <h1 align="center"> ${answers.title}</h1>
 
-    #### Table of Contents
+    ## Table of Contents
     1. [Project Description](#description)
     2. [Installation](#installation)
     3. [Usage](#usage)
@@ -26,7 +27,7 @@ const generateMarkdown = (answers) => {
     ## Questions
     * Find me on Github @ [${answers.githubName}](http://github.com/${answers.githubName})
     * For questions about this project please contact me @: ${answers.questions}.
-  `
+  `;
 }
 
 module.exports = {generateMarkdown};

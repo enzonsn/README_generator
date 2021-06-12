@@ -1,6 +1,7 @@
-# Readme Generator
 
-    #### Table of Contents
+    <h1 align="center"> Radme Generator</h1>
+
+    ## Table of Contents
     1. [Project Description](#description)
     2. [Installation](#installation)
     3. [Usage](#usage)
@@ -11,7 +12,7 @@
     * This project create a README.md file based off the information you provide.
     
     ## Installation
-    * Save the files, in the terminal run "npm init" and "npm install inquirer".
+    * Save the files, in the terminal run "npm init", and "npm install inquirer".
     
     ## Usage Info
     * Simply open up the terminal, run "node index.js", and fill out the provided questions.
